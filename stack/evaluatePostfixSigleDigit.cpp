@@ -36,7 +36,7 @@ int main(){
 
     string str;
     cout<<"Enter the postfix : ";
-    cin>>str;
+    getline(cin,str); // to read the string including space
 
     cout<<"Answer : "<<evaluatePostfix(str);
 
