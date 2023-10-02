@@ -2,7 +2,7 @@
 using namespace std;
 // program to evaluate postfix single digit number 2 3 1 * + 9
 int evaluatePostfix( string & str){
-    stack<char>st;
+    stack<int>st;
 
     for(char ch : str){
 
